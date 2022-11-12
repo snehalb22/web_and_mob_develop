@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Stay Fit</title>
 </head>
 <body>
@@ -21,11 +21,159 @@
                 </div>
             </div>
             <div class="navItem">
-                
+                <p>Limited offer!!</p>
             </div>
         </div>
-        
-        </div>
+   
     </nav>
-</body> 
+    <div class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <div class="shopcontent">
+         <!--    <div class="product">
+                <img src="./images/dumbbells.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Dumbbell</h2>
+                <span class="price">$25</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div>
+            
+            <div class="product">
+                <img src="./images/Olympic Plate(Rubber Coated).png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Olympic Plate(Rubber Coated)</h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve1">Reserve</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/Olympic weight Bar.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Olympic Weight Bar </h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/Adjustable_bench.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Adjustable Bench</h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/Kettlebell.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Kettlebell</h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/Rotocycle.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Rotocycle</h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/Olympic weight Bar.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Olympic Weight Bar </h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div>
+
+            <div class="product">
+                <img src="./images/tredmill.png" alt="" width="200" height="150" class="product-img">
+                <h2 class="product-title">Tredmill</h2>
+                <span class="price">$35</span>
+                <button type="button" id="reserve">Reserve</button>
+            </div> -->
+        </div>
+   
+    <script>
+        var data = [
+                {   
+                    id: 1,
+                    img: './images/dumbbells.png',
+                    title: 'Dumbbell',
+                    price: '$25'
+                },
+                {
+                    id: 2,
+                    img: './images/Olympic Plate(Rubber Coated).png',
+                    title: 'Olympic Plate(Rubber Coated)',
+                    price: '$25'
+                },
+                {
+                    id: 3,
+                    img: './images/Olympic weight Bar.png',
+                    title: 'Olympic Weight Bar',
+                    price: '25'
+                },
+                {
+                    id: 4,
+                    img: './images/Adjustable_bench.png',
+                    title: 'Adjustable Bench',
+                    price: '25'
+                },
+                {
+                    id: 5,
+                    img: './images/Kettlebell.png',
+                    title: 'Kettlebell',
+                    price: '25'
+                },
+                {
+                    id: 6,
+                    img: './images/Rotocycle.png',
+                    title: 'Rotocycle',
+                    price: '25'
+                },
+                {
+                    id: 7,
+                    img: './images/Olympic weight Bar.png',
+                    title: 'Olympic Weight Bar',
+                    price: '25'
+                },
+                {
+                    id: 8,
+                    img: './images/tredmill.png',
+                    title: 'Tredmill',
+                    price: '25'
+                },
+            ];
+            
+            data.forEach((product)=>{
+                var parentEl = document.querySelector('.shopcontent');
+                var productEl = '<div class="product">'+
+                    '<img src="'+product.img+'"alt="" width="200" height="150" class="product-img">'+
+                    '<h2 class="product-title">'+product.title+'</h2>"'+
+                    '<span class="price">'+product.price+'</span>'+
+                    '<button type="button" id="reserve'+product.id+'"onclick="displayform()">Reserve</button>'+
+                '</div>';
+                parentEl.innerHTML = parentEl.innerHTML+productEl;
+            });
+    </script>
+    </div>
+        <div class="my-popup">
+            <div class="close-btn">&times;</div>
+                <div class="form">
+                    <h2>Reservation</h2>
+                    <div class="form-element">
+                        <label>Name</label>
+                        <input type="text" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-element">
+                        <label>Phone No.</label>
+                        <input type="text" id="name" placeholder="Enter your Phone No.">
+                    </div>
+                    <div class="form-element">
+                        <label>Email</label>
+                        <input type="text" id="name" placeholder="Enter your Email address">
+                    </div>
+                    <div class="form-element">
+                        <button>Reserve</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+</body>
+<script src="app.js"></script> 
 </html>
