@@ -90,61 +90,65 @@
         var data = [
                 {   
                     id: 1,
-                    img: './images/dumbbells.png',
+                    img: './images/dumbbell1.png',
                     title: 'Dumbbell',
-                    price: '$25'
+                    price: '£25'
                 },
                 {
                     id: 2,
                     img: './images/Olympic Plate(Rubber Coated).png',
                     title: 'Olympic Plate(Rubber Coated)',
-                    price: '$25'
+                    price: '£25'
                 },
                 {
                     id: 3,
                     img: './images/Olympic weight Bar.png',
                     title: 'Olympic Weight Bar',
-                    price: '25'
+                    price: '£25'
                 },
                 {
                     id: 4,
                     img: './images/Adjustable_bench.png',
                     title: 'Adjustable Bench',
-                    price: '25'
+                    price: '£25'
                 },
                 {
                     id: 5,
                     img: './images/Kettlebell.png',
                     title: 'Kettlebell',
-                    price: '25'
+                    price: '£25'
                 },
                 {
                     id: 6,
                     img: './images/Rotocycle.png',
                     title: 'Rotocycle',
-                    price: '25'
+                    price: '£25'
                 },
                 {
                     id: 7,
                     img: './images/Olympic weight Bar.png',
                     title: 'Olympic Weight Bar',
-                    price: '25'
+                    price: '£25'
                 },
                 {
                     id: 8,
                     img: './images/tredmill.png',
                     title: 'Tredmill',
-                    price: '25'
+                    price: '£25'
                 },
             ];
             
             data.forEach((product)=>{
                 var parentEl = document.querySelector('.shopcontent');
-                var productEl = '<div class="product">'+
-                    '<img src="'+product.img+'"alt="" width="200" height="150" class="product-img">'+
-                    '<h2 class="product-title">'+product.title+'</h2>"'+
+                var productEl = '<div class= "conatiner">'+'<div class="product">'+
+                    '<img src="'+product.img+'"alt="" width="100%" height="60%" class="product-img" onclick="Description()">'+
+                    '<div class="product_details">'+
+                    '<h4 class="product-title">'+product.title+'</h4>'+
+                    '<div class="productprice">'+
                     '<span class="price">'+product.price+'</span>'+
-                    '<button type="button" id="reserve'+product.id+'"onclick="displayform()">Reserve</button>'+
+                    '<button type="button" id="reserve'+product.id+'" margin="5px" onclick="displayform()">Reserve</button>'+
+                    '</div>'+'</div>'+
+                    '</div>'
                 '</div>';
                 parentEl.innerHTML = parentEl.innerHTML+productEl;
             });
@@ -170,9 +174,9 @@
                         <button>Reserve</button>
                     </div>
                 </div>
-
             </form>
         </div>
+    
 
 </body>
 <script src="app.js"></script> 

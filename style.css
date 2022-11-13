@@ -57,8 +57,41 @@ grid-template-columns: repeat(auto-fit,minmax(220px,auto));
 gap: 1.5rem;
 }
 
+.container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .product{
 position:relative;
+transition: transform 0.5s;
+}
+
+.product_details{
+background-color: dimgrey;
+width: 100%;
+max-height: 100%;
+}
+
+.product-title{
+  margin: 5px;
+}
+
+.price{
+  width: 100%;
+  padding-right: 100%;
+  margin: 5px;
+}
+
+.productprice{
+  justify-content: center;
+  width: 100%;
+}
+
+.product:hover{
+  transform: translateY(-5px);
 }
 
 .my-popup{
@@ -140,3 +173,63 @@ border-radius: 10px;
 cursor: pointer;
 
 }
+
+.Product-description{
+  margin-top: 10px;
+  display: flex;
+}
+
+.Product-description .Prod-img{
+width: 50%;
+margin-right: 30px;
+}
+
+.small-images{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 25%;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.Product-description .single-pro-details{
+  width: 50%;
+}
+
+.single-pro-details h2{
+  font-weight: 400px;
+  font-size: 26px;
+}
+
+.single-pro-details h3{
+  font-weight: 400px;
+  font-size: 26px;
+}
+
+.single-pro-details .weight{
+  display: flex;
+  padding-right: 5px;
+}
+.single-pro-details .weight select{
+display:block;
+padding: 4px 8px;
+margin-bottom: 10px ;
+}
+
+.single-pro-details .quantity{
+  display: flex;
+  padding-right: 5px;
+}
+
+.single-pro-details .quantity input{
+  width: 45px;
+  height: 20px;
+  padding-left: 10px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+
