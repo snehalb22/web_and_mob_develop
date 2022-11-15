@@ -16,9 +16,9 @@ document.querySelector(".my-popup .close-btn").addEventListener("click",function
 
 /*Product Description Page*/
 
-function Description() {
+/*function Description() {
     var myWindow=window.open("Product-desc.html","_self");
-}
+}*/
 
 function getproductdes(productid){
     
@@ -56,3 +56,18 @@ function f1(){
 
 
 }
+
+function picture(){
+
+            var mainimg= document.getElementById("Mainimage");
+            let smallimg=document.getElementsByClassName("small-image");
+        
+            for (let i = 0; i < smallimg.length; i++) {
+                console.log(smallimg[i])
+                smallimg[i].onclick=function(){
+                mainimg.src=smallimg[i].src;
+            
+        }; 
+    };    
+}
+            

@@ -1,13 +1,14 @@
 [
     {   
         "id": 1,
-        "img": "./images/dumbbell1.png",
-        "title": "Dumbbell",
-        "price": "$25",
+        "img1": "./images/dumbbell1.png",
+        "title": "Dumbbells",
+        "price": "£25",
         "img2":"./images/dumbbell2.png",
         "img3":"./images/dumbbell3.png",
         "img4":"./images/dumbbell4.png",
         "img5":"./images/dumbbell5.png",
+        "vid":"./videos/Dumbbells_vid.mp4",
         "description":"<b>high-quality black rubber bumper plate dumbbell set is perfect for your home or garage gym.</b><br><br>If weight training is your goal then this bumper plate dumbbell set will add efficiency to your workout session. These bumper plates are an ideal choice for performing power lifts, deadlifts, hip thrusters, and many such exercises with ease.<br><br><b><u>Protection</u></b>-Iron plates can crack up your home or gym floor if you accidentally happen to hit the ground. But with our 5 kg bumper plates, you can prevent your home and gym floors from getting damaged.<br><br>This dumbbell set will comes with bar with 10kg weight and bumper plates of weight from 10 to 100 kgs. <br><br>",
         "includes":"5kg Bumper Plate x2<br>10kg Bumper Plate x2<br>20kg Bumper Plate x2<br>50kg Bumper Plate x2<br>100kg Bumper Plate x2<br><br>",
         "specification":"<table><tr><th>Material</th><th> Rubber</th></tr><tr><td>5kg Thickness</td><td>20mm</td></tr><tr><td>10kg Thickness</td><td>40mm</td></tr><tr><td>20kg Thickness</td><td>60mm</td></tr><tr><td>50kg Thickness</td><td>80mm</td></tr><tr><td>100kg Thickness</td><td>100mm</td></tr></table><br><br>"
@@ -15,44 +16,108 @@
     },
     {
         "id": 2,
-        "img": "./images/Olympic Plate(Rubber Coated).png",
-        "title": "Olympic Plate(Rubber Coated)",
-        "price": "$25"
+        "img1": "./images/WeightBar1.png",
+        "title": "Weight BarBells",
+        "price": "£100",
+        "img2": "./images/WeightBar2.png",
+        "img3": "./images/WeightBar3.png",
+        "img4": "./images/WeightBar4.png",
+        "img5": "./images/WeightBar5.png",
+        "vid":"./videos/WeightBar_vid.mp4",
+        "description":"<b>high-quality Weight barbells set is perfect for your home or garage gym.</b><br><br>If weight training is your goal then this Weight barbells set will add efficiency to your workout session. These Weight barbells are an ideal choice for performing power lifts, deadlifts, hip thrusters, and many such exercises with ease.<br><br><b><u>Protection</u></b>-Iron plates can crack up your home or gym floor if you accidentally happen to hit the ground. But with our 50-100 kg rubber Weight barbells, you can prevent your home and gym floors from getting damaged.<br><br>This weight barbells set will comes with bar with 25kg weight and weight plates of weight from 10 to 100 kgs. <br><br>",
+        "includes":"20kg Weight Plate x2<br>50kg Weight Plate x2<br>100kg Weight Plate x2<br><br>",
+        "specification":"<table><tr><th>Material</th><th> Rubber</th></tr><tr><td>5kg Thickness</td><td>20mm</td></tr><tr><td>10kg Thickness</td><td>40mm</td></tr><tr><td>20kg Thickness</td><td>60mm</td></tr><tr><td>50kg Thickness</td><td>80mm</td></tr><tr><td>100kg Thickness</td><td>100mm</td></tr></table><br><br>"
+
+
+        
     },
     {
         "id": 3,
-        "img": "./images/Olympic weight Bar.png",
-        "title": "Olympic Weight Bar",
-        "price": "25"
+        "img1": "./images/PowerRack1.png",
+        "title": "Power Racks",
+        "price": "£75",
+        "vid":"./videos/PowerRack.mp4",
+        "img2": "./images/PowerRack2.png",
+        "img3": "./images/PowerRack3.png",
+        "img4": "./images/PowerRack4.png",
+        "img5": "./images/PowerRack5.png",
+        "description":"<b>high-quality Multipurpose Power Rack machine is perfect for your home or garage gym.</b><br><br>If weight training is your goal then this multipurpose power rack machine will add efficiency to your workout session. These power rack machines are an ideal choice for performing power lifts, deadlifts, heavy Squats, and many such exercises with ease.<br><br><b><u>Protection</u></b>-Iron plates can crack up your home or gym floor if you accidentally happen to hit the ground. Please be carefull while installing the machine at home/garage<br><br>",
+        "includes":"2x Single Cable Handles<br>1x Pro Multi Purpose Bar<br>1x Seated Row Handle<br>1x Ankle Attachment<br>1x Long Straight Bar <br><br>",
+        "specification":"2 x 100kg Weight Stacks come as standard which is one feature that separates this dual adjustable pulley from its rivals.<br><br> <b>Dimensions:</b> One other feature that separates the Bolt Functional trainer from  a normal functional trainer is that is comes in two different size options. We advise choosing the size that works best for your room. We are happy to provide advice on this if you wish to contact us.<br><br>Size Option 1.0: 2165mm (H) x 2148 (W) x 907mm (D)<br>Size Option 2.0: 2165mm (H) x 1372 (W) x 926mm (D)<br><br>Unbeatable Commercial Grade Warranty on all of the above: This product has a Full Commercial Rating and features a Lifetime Warranty on frames, welds, weight plates & guide rods. 3 Years on Pulleys, bushing, bearings & hardware. 1 Year on cables, upholstery, grips and all other components.<br><br>"
     },
     {
         "id": 4,
-        "img": "./images/Adjustable_bench.png",
-        "title": "Adjustable Bench",
-        "price": "25"
+        "img1": "./images/WeightBench1.png",
+        "title": "Adjustable Weight Bench",
+        "price": "£90",
+        "img2": "./images/WeightBench2.png",
+        "img3": "./images/WeightBench3.png",
+        "img4": "./images/WeightBench4.png",
+        "img5": "./images/WeightBench5.png",
+        "vid":"./videos/WeightBench.mp4",
+        "description":"<b>high-quality weight Bench is perfect for your home or garage gym.</b><br><br>Our home Use Adjustable Bench is the perfect solution for your home gym, and or perfect for all fitness levels, whether you are a beginner, new to weightlifting or an experienced weight lifter who wishes to train in the comfort of their own home.<br><br><b><u>Protection</u></b>-Iron plates can crack up your home or gym floor if you accidentally happen to hit the ground.Please be carefull while installing the equipment.<br><br>",
+        "includes":"Weight Bench x1<br><br>",
+        "specification":"This bench is a fully adjustable home use weight bench which can be adjusted from a flat bench, to decline, to incline, and is the perfect product for free weight workouts, you can train your entire body with this great bench. It is also extremely versatile, so you will never get bored of working out. You can perform bench press, dumbbell press, ab crunches, oblique twists and more, all while using one great product<br><br>"
+
     },
     {
         "id": 5,
-        "img": "./images/Kettlebell.png",
+        "img1": "./images/Kettlebell1.png",
         "title": "Kettlebell",
-        "price": "25"
+        "price": "£65",
+        "img2": "./images/Kettlebell2.png",
+        "img3": "./images/Kettlebell3.png",
+        "img4": "./images/Kettlebell4.png",
+        "img5": "./images/Kettlebell5.png",
+        "vid":"./videos/Kettlebell.mp4",
+        "description":"<b>high-quality kettlebell set is perfect for your home or garage gym.</b><br><br>If weight training is your goal then this kettlebell set will add efficiency to your workout session. These kettlebell are an ideal choice for performing power lifts, deadlifts, hip thrusters, and many such exercises with ease.<br><br><b><u>Protection</u></b>-Kettlebells can crack up your home or gym floor if you accidentally happen to hit the ground. But with our 20kg kettlebell, you can prevent your home and gym floors from getting damaged.<br><br>This kettlebell set will comes with bar with 10kg weight and kettlebell of weight from 10 to 100 kgs. <br><br>",
+        "includes":"5kg Kettlebell x2<br>10kg Kettlebell x2<br>20kg Kettlebell x2<br>50kg Kettlebell x2<br>100kg Kettlebell x2<br><br>",
+        "specification":"<table><tr><th>Material</th><th> Rubber</th></tr><tr><td>5kg Thickness</td><td>20mm</td></tr><tr><td>10kg Thickness</td><td>40mm</td></tr><tr><td>20kg Thickness</td><td>60mm</td></tr><tr><td>50kg Thickness</td><td>80mm</td></tr><tr><td>100kg Thickness</td><td>100mm</td></tr></table><br><br>"
+
     },
     {
         "id": 6,
-        "img": "./images/Rotocycle.png",
+        "img1": "./images/Rotocycle1.png",
+        "img2": "./images/Rotocycle2.png",
+        "img3": "./images/Rotocycle3.png",
+        "img4": "./images/Rotocycle4.png",
+        "img5": "./images/Rotocycle5.png",
         "title": "Rotocycle",
-        "price": "25"
+        "price": "£120",
+        "vid":"./videos/Rotocycle.mp4",
+        "description":"<b>high-quality Rotocycle machine is perfect for your home or garage gym.</b><br><br>If cardio training is your goal then this Rotocycle will add efficiency to your workout session. These Rotocycle machines are an ideal choice for performing cycling, cardio workout and many such exercises with ease.<br><br><b><u>Protection</u></b>-Rotocycle machine can crack up your home or gym floor if you accidentally happen to hit the ground. Please be carefull with installation.<br><br>This Rotocycle machine will comes with a computer console included which the user can track: time, speed, rpm, distance and calories burnt.<br><br>",
+        "includes":"Rotocycle Machine x1 <br> Rotocycle machine accessories<br><br>",
+        "specification":"Dimensions are 45cm wide x 130cm high x 140cm long.<br>Max User weight for this bike is 110kgs.<br>Max User Height: 6ft<br>Friction brake pad<br>Matt Black<br><br>14kg cast iron flywheel<br>Chain Driven – no need to worry about a wearable belt. This chain driven bike is built to last.<br><br>"
+
     },
     {
         "id": 7,
-        "img": "./images/Olympic weight Bar.png",
-        "title": "Olympic Weight Bar",
-        "price": "25"
+        "img1": "./images/Crosstrainer1.png",
+        "img2": "./images/Crosstrainer2.png",
+        "img3": "./images/Crosstrainer3.png",
+        "img4": "./images/Crosstrainer4.png",
+        "img5": "./images/Crosstrainer5.png",
+        "title": "Cross Trainers",
+        "price": "£130",
+        "vid":"./videos/Crosstrainers.mp4",
+        "description":"<b>high-quality Crosstrainer machine is perfect for your home or garage gym.</b><br><br>If cardio training is your goal then this Crosstrainer machine will add efficiency to your workout session. These Crosstrainer machine are an ideal choice for performing cycling, cardio workout, and many such exercises with ease.<br><br><b><u>Protection</u></b>-Crosstrainer machine can crack up your home or gym floor if you accidentally happen to hit the ground. Please be carefull with installation.<br><br>This Crosstrainer machine will come with a computer console included which the user can track: time, speed, rpm, distance and calories burnt.<br><br>",
+        "includes":"Crosstrainer Machine x1 <br> Crosstrainer machine accessories<br><br>",
+        "specification":"Dimensions are 50cm wide x 150cm high x 160s0cm long.<br>Max User weight for this machine is 90kgs.<br>Max User Height: 6ft<br>Stop Button<br>Matt Black<br><br>"
+
     },
     {
         "id": 8,
-        "img": "./images/tredmill.png",
-        "title": "Tredmill",
-        "price": "25"
+        "img1": "./images/Treadmill1.png",
+        "img2": "./images/Treadmill2.png",
+        "img3": "./images/Treadmill3.png",
+        "img4": "./images/Treadmill4.png",
+        "img5": "./images/Treadmill5.png",
+        "title": "Treadmill",
+        "price": "£150",
+        "vid":"./videos/Treadmill.mp4",
+        "description":"<b>high-quality Treadmill machine is perfect for your home or garage gym.</b><br><br>If cardio training is your goal then this Treadmill machine will add efficiency to your workout session. These Treadmill machine are an ideal choice for performing running, walking, jogging, and many such exercises with ease.<br><br><b><u>Protection</u></b>-Treadmill machine can crack up your home or gym floor if you accidentally happen to hit the ground. Please be carefull with installation.<br><br>This Treadmill machine will comes with a computer console included which the user can track: time, speed, rpm, distance and calories burnt.<br><br>",
+        "includes":"Treadmill Machine x1 <br> Treadmill machine accessories<br><br>",
+        "specification":"Dimensions are 45cm wide x 130cm high x 140cm long.<br>Max User weight for this machine is 110kgs.<br>Max User Height: 6ft<br>Stop Button<br>Matt Black<br><br>"
+
     }
 ]
