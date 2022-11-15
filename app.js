@@ -79,9 +79,9 @@ else
                 {
                     
                     
-                    var productEl = '<div class= "conatiner">'+'<div class="product">'+
-                    '<img src="'+product.img1+'"alt="" width="100%" height="60%" id="product_img" class="product-img" onclick="getproductdes('+product.id+')">'+
-                    '<div class="product_details">'+
+                    var productEl = '<div class= "conatiner-search">'+'<div class="product-search">'+
+                    '<img src="'+product.img1+'"alt="" width="100%" height="100%" margin-left="50px" id="product_img" class="product-img-search" onclick="getproductdes('+product.id+')">'+
+                    '<div class="product_details" width="50px">'+
                     '<h4 class="product-title">'+product.title+'</h4>'+
                     '<div class="productprice">'+
                     '<span class="price">'+product.price+'</span>'+

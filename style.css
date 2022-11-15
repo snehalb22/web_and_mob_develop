@@ -46,20 +46,6 @@ header{
   color: lightgray;
 }
 
-.nvbottom{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.menulist{
-  display: flex;
-  margin-right: 60px;
-  color: lightcoral;
-  cursor: pointer;
-  font-weight: 500;
-}
-
 .section-title{
   text-align: center;
   margin-top: 150px;
@@ -73,6 +59,12 @@ header{
   
   .shop{
     margin-top: 4rem;
+  }
+
+  .shop h2{
+    background-color: dimgray;
+    width: 100%;
+    padding: 4px;
   }
   
   .contain{
@@ -113,8 +105,10 @@ max-height: 100%;
 }
 
 .my-popup{
-margin-top: 150px;
-position:absolute;
+margin-top: 50px;
+position:absolute
+align-items: center;
+position: fixed;
 top:-150%;
 left: 50%;
 opacity: 0;
@@ -232,6 +226,9 @@ margin-right: 30px;
 .single-pro-details h2{
   font-weight: 400px;
   font-size: 26px;
+  background-color: #aaa;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .single-pro-details h3{
@@ -306,4 +303,3 @@ padding-top: 15px;
 .form-element button{
   cursor: pointer;
 }
-
