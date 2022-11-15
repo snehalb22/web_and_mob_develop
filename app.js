@@ -28,7 +28,7 @@ function getproductdes(productid){
                 console.log(product.title+"      "+productid);
                /* if((product.title==document.getElementById("search").value)|| (product.title==document.getElementById("product_img").value))
                 {*/
-                    console.log("Hi");
+                    //console.log("Hi");
                     location.href="./Product-desc.html?id="+productid;
                     
                // }
@@ -38,24 +38,75 @@ function getproductdes(productid){
 
 
 }
-function f1(){
+function find(){
     
+    $('.shopcontent').html("");
+    if(document.getElementById("search").value=="")
+    {
     $(document).ready(()=>{
         $.getJSON('products.json', (data)=>{
             data.forEach((product)=>{
                 console.log(product.title+" "+document.getElementById("search").value);
-                if(product.title==document.getElementById("search").value)
-                {
+                
                     
-                    location.href="./Product-desc.html?id="+product.id;
                     
-                }
+                    var productEl = '<div class= "conatiner">'+'<div class="product">'+
+                    '<img src="'+product.img1+'"alt="" width="100%" height="60%" id="product_img" class="product-img" onclick="getproductdes('+product.id+')">'+
+                    '<div class="product_details">'+
+                    '<h4 class="product-title">'+product.title+'</h4>'+
+                    '<div class="productprice">'+
+                    '<span class="price">'+product.price+'</span>'+
+                    '<button type="button" id="reserve'+product.id+'" margin="5px" onclick="displayform()">Reserve</button>'+
+                    '</div>'+'</div>'+
+                    '</div>'
+                '</div>';
+                    $('.shopcontent').append(productEl);
+                    
+                
+               
             });
         });
     });
+}
+else
+{
+    console.log("he");
+    $(document).ready(()=>{
+        $.getJSON('products.json', (data)=>{
+            data.forEach((product)=>{
+               // console.log(product.title+" "+document.getElementById("search").value);
+                if(product.title==document.getElementById("search").value)
+                {
+                    
+                    
+                    var productEl = '<div class= "conatiner">'+'<div class="product">'+
+                    '<img src="'+product.img1+'"alt="" width="100%" height="60%" id="product_img" class="product-img" onclick="getproductdes('+product.id+')">'+
+                    '<div class="product_details">'+
+                    '<h4 class="product-title">'+product.title+'</h4>'+
+                    '<div class="productprice">'+
+                    '<span class="price">'+product.price+'</span>'+
+                    '<button type="button" id="reserve'+product.id+'" margin="5px" onclick="displayform()">Reserve</button>'+
+                    '</div>'+'</div>'+
+                    '</div>'
+                '</div>';
+                    $('.shopcontent').append(productEl);
+                    
+                }
+               
+            });
+        });
+    });
+}
 
+    
+}
+
+function submit(){
+
+alert("Product is Reserved");
 
 }
+
 
 function picture(){
 

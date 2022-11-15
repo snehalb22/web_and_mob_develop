@@ -4,20 +4,33 @@ body{
 
 }
 
-nav {
-  background-color: black;
-  color: white;
-  padding: 20px 50px;
+.container{
+  max-width: 1220px;
+  margin: auto;
+  width: 100%;
 }
 
-.navTop {
+header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color:black;
+  box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+  z-index: 100;
+}
+.nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 10px 0px;
+  max-height: 80px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .search {
-  display: flex;
+  
   align-items: center;
   background-color: gray;
   padding: 10px 20px;
@@ -48,21 +61,26 @@ nav {
 }
 
 .section-title{
-text-align: center;
-}
-
-.shopcontent{
-display: grid;
-grid-template-columns: repeat(auto-fit,minmax(220px,auto));
-gap: 1.5rem;
-}
-
-.container{
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
+  text-align: center;
+  margin-top: 150px;
+  }
+  
+  .shopcontent{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,auto));
+  gap: 1.5rem;
+  }
+  
+  .shop{
+    margin-top: 4rem;
+  }
+  
+  .contain{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 
 .product{
 position:relative;
@@ -95,13 +113,13 @@ max-height: 100%;
 }
 
 .my-popup{
-
+margin-top: 150px;
 position:absolute;
 top:-150%;
 left: 50%;
 opacity: 0;
 transform: translate(-50%,-50%) scale(1.25);
-width: 380px;
+width: 320px;
 padding: 20px 30px;
 background: gray;
 box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
@@ -176,7 +194,7 @@ cursor: pointer;
 }
 
 .Product-description{
-  margin-top: 10px;
+  margin-top: 120px;
   display: flex;
 }
 
@@ -256,6 +274,34 @@ cursor: pointer;
 {
 padding-top: 15px;
 }
+
+@media (max-width: 1080px){
+
+  .nav{
+      padding: 15px;
+  }
+
+  section{
+      padding: 3rem 0 2rem;
+  }
+
+  .container{
+      margin: 0, auto;
+      width: 90%;
+  }
+
+  .shop{
+      margin-top: 2rem Im !important;
+  }
+
+}
+
+@media (max-width: 400px){
+  .nav{
+      padding: 11px;
+}
+}
+
 
 .form-element button{
   cursor: pointer;
