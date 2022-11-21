@@ -353,3 +353,43 @@ padding-top: 15px;
 .form-element button{
   cursor: pointer;
 }
+footer{
+  background-color: black;
+  padding: 70px;
+  width: 100%;
+  height: 100px;
+  margin-top: 8%;
+}
+
+.footcontainer{
+  padding-left: -100px;
+  max-width: 1200px;
+  width: 90%;
+}
+
+
+.row{
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.footer-col{
+  width: 25%;
+ 
+}
+
+.footer-col h4{
+  padding-bottom: -50px;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+}
+
+.footer-col p{
+font-size:18px;
+color: white;
+
+}

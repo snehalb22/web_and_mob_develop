@@ -75,8 +75,8 @@ else
         $.getJSON('products.json', (data)=>{
             data.forEach((product)=>{
                // console.log(product.title+" "+document.getElementById("search").value);
-                if(product.title==document.getElementById("search").value)
-                {
+               if(product.title.substring(0,2).toLowerCase()==document.getElementById("search").value.substring(0,2).toLowerCase())
+               {
                     
                     
                     var productEl = '<div class= "conatiner-search">'+'<div class="product-search">'+
@@ -101,11 +101,52 @@ else
     
 }
 
-function submit(){
+function validation(){
 
-alert("Product is Reserved");
-
-}
+    //alert("Product is Reserved");
+    
+    var name =document.getElementById("name").value;
+    var email =document.getElementById("email").value;
+    var phoneno =document.getElementById("phoneno").value;
+    var eircode =document.getElementById("eircode").value;
+    var address =document.getElementById("address").value;
+    
+    
+    //console.log(name);
+    if (name == "") {
+        window.alert("Please enter your name properly.");
+        return false;
+    }
+    if (phoneno == "") {
+        window.alert("Please enter your phoneno properly.");
+        return false;
+    }
+    if (email == "") {
+        window.alert("Please enter your email properly.");
+        return false;
+    }
+    
+    if (address == "") {
+        window.alert("Please enter your address properly.");
+        return false;
+    }
+    if (eircode == "") {
+        window.alert("Please enter your eircode properly.");
+        return false;
+    }
+    
+    return true;
+    
+    }
+    
+    function submit(){
+    var validflag=validation();
+    console.log(validflag);
+    if(validflag==true)
+    {
+        window.alert("Product is Reserved");
+    }
+    }
 
 
 function picture(){
