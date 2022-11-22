@@ -1,11 +1,5 @@
 
-/*document.querySelector("#reserve").addEventListener("click", function () {
-
-    document.querySelector(".my-popup").classList.add("active");
-
-
-});*/
-
+/* display popup form */
 function displayform(){
     document.querySelector(".my-popup").classList.add("active");
 }
@@ -14,30 +8,25 @@ document.querySelector(".my-popup .close-btn").addEventListener("click",function
 
 });
 
-/*Product Description Page*/
-
-/*function Description() {
-    var myWindow=window.open("Product-desc.html","_self");
-}*/
-
+/**view the product details */
 function getproductdes(productid){
     
     $(document).ready(()=>{
         $.getJSON('products.json', (data)=>{
             data.forEach((product)=>{
                 console.log(product.title+"      "+productid);
-               /* if((product.title==document.getElementById("search").value)|| (product.title==document.getElementById("product_img").value))
-                {*/
-                    //console.log("Hi");
+
                     location.href="./Product-desc.html?id="+productid;
                     
-               // }
+              
             });
         });
     });
 
 
 }
+
+/* search bar */
 function find(){
     
     $('.shopcontent').html("");
@@ -100,10 +89,9 @@ else
 
     
 }
-
+//form validation
 function validation(){
 
-    //alert("Product is Reserved");
     
     var name =document.getElementById("name").value;
     var email =document.getElementById("email").value;
@@ -148,7 +136,7 @@ function validation(){
     }
     }
 
-
+//to display small pictures as main image
 function picture(){
 
             var mainimg= document.getElementById("Mainimage");
